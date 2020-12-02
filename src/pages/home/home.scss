@@ -1,0 +1,51 @@
+page-home {
+
+    ion-content.tudo{
+        background-color: rgba(187, 180, 180, 0.2);
+        background-image: grey;
+    }
+    h3.lava{
+        color: blue;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    p.p{
+        color: black;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    h4.conheca{
+        color: red;
+        font-weight: initial;
+        text-align: center;
+        
+    }
+    h5.p{
+        text-align: justify;
+        color: black;
+        font-weight: initial;
+        background-color: rgba(187, 180, 180, 0.2);
+        background-image: grey;
+        text-align: center;        
+    }
+
+    h6.p{
+        text-align: justify;
+        color: black;
+        font-weight: initial;
+        background-color: rgba(187, 180, 180, 0.2);
+        background-image: grey;
+        text-align: center;     
+
+    }
+
+    p.wordrap{
+        text-align: justify;
+    }
+
+
+
+
+}
