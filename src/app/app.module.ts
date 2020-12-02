@@ -14,6 +14,8 @@ import { CadastroPage } from '../pages/cadastro/cadastro';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { AngularFireModule } from '@angular/fire';
+import { environment } from 'environments/environment';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
